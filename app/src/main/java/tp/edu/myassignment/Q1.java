@@ -7,15 +7,15 @@ public class Q1 {
 
         System.out.println("First Number: ");
         Scanner int1 = new Scanner(System.in);
-        Integer a = Integer.valueOf(int1.nextLine());
+        Integer a = int1.nextInt();
 
         System.out.println("Second Number: ");
         Scanner int2 = new Scanner(System.in);
-        Integer b = Integer.valueOf(int2.nextLine());
+        Integer b = int2.nextInt();
 
         System.out.println("Third Number: ");
         Scanner int3 = new Scanner(System.in);
-        Integer c = Integer.valueOf(int3.nextLine());
+        Integer c = int3.nextInt();
 
         if ((a < b) && (a < c))
         {

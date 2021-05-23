@@ -2,7 +2,7 @@ package tp.edu.myassignment;
 
 import java.util.Scanner;
 
-public class q4 {
+public class Q4Real {
     public static int sumOfIpad(int noOfIpad)
     {
         int cost = 1000;
@@ -12,19 +12,13 @@ public class q4 {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter the number of iPad/iPads");
+        System.out.println("Enter the number of iPads");
         Scanner sc = new Scanner(System.in);
         Integer amt = sc.nextInt();
 
         int total = sumOfIpad(amt);
-        if(amt > 1){
-            System.out.println("The total cost of " + amt + " iPads is : $" + total);
-        }
-        else{
-            System.out.println("The total cost of " + amt + " iPad is : $" + total);
-        }
+        System.out.println("The total cost of " + amt + " iPads is : $" + total);
+
 
     }
-
 }
-

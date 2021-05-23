@@ -13,12 +13,14 @@ public class Q2 {
         Scanner int2 = new Scanner(System.in);
         Integer b = int2.nextInt();
 
-        System.out.println("Counting: ");
 
+        System.out.print("Counting: ");
         for (int i = a; i<= b; i = i + 1)
         {
-            System.out.println(i);
+            System.out.print( " " + i + " ");
         }
+
+
 
     }
 
